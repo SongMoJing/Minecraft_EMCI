@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "emci",
+	"version": "${version}",
+	"name": "emci",
+	"description": "利用EMCI用Java更好地控制你的世界！",
+	"authors": [
+		"Song_Mojing<songmojing@outlook.com>"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/emci/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.funcablaze.emci.Emci"
+		],
+		"fabric-datagen": [
+			"com.funcablaze.emci.EmciDataGenerator"
+		]
+	},
+	"mixins": [
+		"emci.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

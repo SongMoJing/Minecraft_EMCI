@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "emci:block/function_block"
+    }
+  }
+}
