@@ -28,7 +28,5 @@ public class ModBlocks implements ModInitializer {
     }
 
     @Override
-    public void onInitialize() {
-
-    }
+    public void onInitialize() {}
 }
