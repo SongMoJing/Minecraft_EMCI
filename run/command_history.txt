@@ -1,0 +1,14 @@
+/give @s
+/give @s emci:function_block
+/give @s comm
+/give @s minecraft:command_block
+/gamemode spectator
+/gamemode survival
+/gamemode c
+/gamemode creative
+/give @s emci:function_block
+/gamem
+/gamemode survival
+/gamemode creative
+/debug
+/debug function eee
