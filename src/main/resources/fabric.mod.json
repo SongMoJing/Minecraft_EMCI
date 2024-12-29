@@ -3,7 +3,7 @@
 	"id": "emci",
 	"version": "${version}",
 	"name": "emci",
-	"description": "利用EMCI用Java更好地控制你的世界！",
+	"description": "EMCI，用类Java语言更好地控制你的世界！",
 	"authors": [
 		"Song_Mojing<songmojing@outlook.com>"
 	],
